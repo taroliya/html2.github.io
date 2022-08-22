@@ -1,0 +1,189 @@
+body
+{
+margin: 0px;
+padding: 0px;
+background: linear-gradient(rgb(160, 102, 226),rgb(228, 147, 161));
+
+}
+.aa
+{
+margin: 0px;
+padding: 0px;
+border: 4px solid black;
+height: 500px;
+width: 990px;
+color: black;
+background-color: black;
+position: relative;
+left: 150px;
+top: 50px;
+}
+.jg
+{
+height: 500px;
+width: 370px;
+animation: ka alternate 5s;
+}
+@keyframes ka {
+    0%{
+        height: 20px;
+        width: 10px;
+    }
+    100%
+    {
+        height: 500px;
+        width: 370px;
+    }
+}
+
+.h
+{
+position: relative;
+bottom: 500px;
+left: 180px;
+color: white;
+}
+.a
+{
+position: relative;
+bottom: 290px;
+left:  669px;
+color:white;
+}
+.b
+{
+    position: relative;
+    bottom: 290px;
+    left: 620px;
+    border-radius: 70px;
+background-color: aliceblue;
+width: 200px;
+height: 20px;
+}
+.c
+{
+    position: relative;
+    bottom: 250px;
+    left: 600px;
+    color:white;
+}
+.d
+{
+    position: relative;
+    bottom: 250px;
+    left: 620px;
+    border-radius: 70px;
+background-color: aliceblue;
+width: 200px;
+height: 20px;
+}
+.e
+{
+    position: relative;
+    bottom: 220px;
+    left: 610px;
+    color: white;
+}
+.f
+{
+    position: relative;
+    bottom: 220px;
+    left: 620px;
+    border-radius: 70px;
+background-color: aliceblue;
+width: 200px;
+height: 20px;
+}
+.g
+{
+    position: relative;
+    bottom: 200px;
+    left: 650px;
+    color: white;
+}
+
+.k
+{
+    position: relative;
+    bottom: 200px;
+    left: 620px;
+    border-radius: 70px;
+    background-color: aliceblue;
+    width:200px;
+    height: 20px;
+}
+#i
+{
+
+    position: relative;
+    bottom: 150px;
+    left: 680px;
+    border-radius: 90px;
+background-color: rgb(18, 109, 245);
+width: 100px;
+height: 50px;
+animation: na alternate 10s;
+}
+@keyframes na {
+    0%{
+       
+opacity: 0; 
+   }
+
+    100%{
+
+opacity: 1;  
+  }
+}
+#j
+{
+
+    position: relative;
+    bottom: 150px;
+    left: 700px;
+    border-radius: 90px;
+    width: 100px;
+    height: 50px;
+  background-color: rgb(18, 109, 245);
+  animation: nn alternate 10s;
+}
+@keyframes nn {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+.b:hover
+{
+    background: linear-gradient(rgb(76, 203, 207),rgb(130, 184, 185)) ;
+    transition: 5s;
+}
+#i:hover
+{
+    background-color: rgb(228, 147, 161);
+    transition: 5s;
+}
+#j:hover
+{
+    background-color:rgb(228, 147, 161);
+    transition: 5s;
+}
+.k:hover
+{
+
+background-color: rgb(50, 219, 224);
+transition: 5s;
+}
+.d:hover
+{
+    background-color: aqua;
+    transition: 5s;
+}
+.f:hover
+{
+    background-color: aquamarine;
+    transition: 5s;
+}
